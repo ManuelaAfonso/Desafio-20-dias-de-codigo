@@ -1,10 +1,15 @@
-'''
 
-                            Online Python Compiler.
-                Code, Compile, Run and Debug python program online.
-Write your code in this editor and press "Run" button to execute it.
 
-'''
+N = int(input())
+valor = N
 
-print('Hello World!')
+notas = [100, 50, 20, 10, 5, 2, 1]
+
+print(valor)
+
+for nota in notas:
+    qtd = N // nota
+    print(f"{qtd} nota(s) de R$ {nota},00")
+    N = N % nota
+
 
